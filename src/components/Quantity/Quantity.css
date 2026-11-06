@@ -1,0 +1,3 @@
+.qty{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:30px;height:42px}
+.qty button{width:38px;height:100%;display:grid;place-items:center;transition:.2s}.qty button:hover{color:var(--accent)}
+.qty span{min-width:28px;text-align:center;font-weight:500}

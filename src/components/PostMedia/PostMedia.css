@@ -1,0 +1,5 @@
+.pm{position:relative;overflow:hidden;background:#000;margin-bottom:26px}.pm img,.pm video{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;animation:pageIn .6s}
+.gallery button{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;background:#fff;display:grid;place-items:center;transition:.3s}.gallery .l{left:14px}.gallery .r{right:14px}.gallery button:hover{background:var(--accent);color:#fff}
+.dots{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);display:flex;gap:6px}.dots i{width:7px;height:7px;border-radius:50%;background:#fff6}.dots .on{background:#fff}
+.play{position:absolute;inset:0;margin:auto;width:72px;height:72px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;animation:pulse 1.6s infinite}
+.audio{background:#fff}.audio img{aspect-ratio:21/9}.audio audio{width:100%;margin-top:10px}

@@ -1,0 +1,5 @@
+.insta{padding-bottom:90px}.insta-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.insta-head h3{font-size:20px;font-weight:600}.insta-head a{color:var(--accent);font-size:13px}
+.insta-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.insta-grid a{position:relative;overflow:hidden;aspect-ratio:1/1}
+.insta-grid img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease)}.insta-grid a:hover img{transform:scale(1.12)}
+.insta-grid span{position:absolute;inset:0;background:rgba(0,0,0,.5);display:grid;place-items:center;color:#fff;opacity:0;transition:.4s}.insta-grid a:hover span{opacity:1}
+@media(max-width:600px){.insta-grid{grid-template-columns:repeat(2,1fr)}}

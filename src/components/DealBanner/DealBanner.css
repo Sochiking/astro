@@ -1,0 +1,6 @@
+.deal{background:#eae9e8;position:relative;overflow:hidden;padding:110px 0;text-align:center}
+.deal-text{position:relative;z-index:2;display:grid;gap:18px;justify-items:center}.deal h2{font-size:clamp(28px,4vw,42px);font-weight:600;color:#222}.deal p{color:#8a8a8a;font-size:12px}
+.d-bag{position:absolute;width:210px;mix-blend-mode:multiply;animation:float 5s ease-in-out infinite}
+.l1{left:-60px;top:14%}.l2{left:12%;bottom:-40px;animation-delay:1s}.r1{right:-50px;top:12%;animation-delay:.5s}.r2{right:14%;bottom:-30px;animation-delay:1.5s}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-16px) rotate(2deg)}}
+@media(max-width:800px){.d-bag{width:120px;opacity:.5}}

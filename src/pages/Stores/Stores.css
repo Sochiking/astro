@@ -1,0 +1,2 @@
+.stores-body{padding:60px 0 90px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.store{display:flex;gap:18px;padding:28px;border:1px solid var(--line);animation:fadeUp .6s var(--ease) both;transition:.35s}.store:hover{border-color:var(--accent);transform:translateY(-5px)}.store .icon{color:var(--accent);margin-top:4px}.store h3{margin-bottom:6px}.store p,.store small{color:var(--muted);display:block}

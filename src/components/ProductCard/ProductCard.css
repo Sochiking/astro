@@ -1,0 +1,22 @@
+.pcard{text-align:center;position:relative}
+.pc-media{position:relative;aspect-ratio:1/1;background:#fff;display:grid;place-items:center;overflow:hidden}
+.pc-media img{width:78%;height:78%;object-fit:contain;transition:transform .7s var(--ease)}
+.pcard:hover .pc-media img{transform:scale(1.07)}
+.pc-badge{position:absolute;top:12px;left:12px;background:var(--red);color:#fff;font-size:10px;font-weight:600;padding:2px 9px;border-radius:12px;z-index:2}
+.pc-actions{position:absolute;bottom:14px;left:0;right:0;display:flex;justify-content:center;gap:10px;opacity:0;transform:translateY(16px);transition:.4s var(--ease)}
+.pcard:hover .pc-actions{opacity:1;transform:none}
+.pc-actions button{width:34px;height:34px;border-radius:50%;background:#fff;box-shadow:0 3px 12px rgba(0,0,0,.12);display:grid;place-items:center;transition:.25s}
+.pc-actions button:hover,.pc-actions .wished{background:var(--accent);color:#fff;transform:translateY(-3px)}
+.pc-info{padding:14px 0 6px}.pc-name{display:block;font-size:12px;font-weight:600;margin-bottom:4px;transition:.2s}.pc-name:hover{color:var(--accent)}
+.pc-info .price{font-size:12.5px}.pc-info .price s{font-size:12px}
+/* hover style 1: vertical actions on the right */
+.h-1 .pc-actions{left:auto;right:12px;top:12px;bottom:auto;flex-direction:column;transform:translateX(20px)}.h-1:hover .pc-actions{transform:none}
+/* hover style 2: full-width add bar */
+.h-2 .pc-actions{display:none}.pc-bar{position:absolute;left:0;right:0;bottom:0;background:var(--dark);color:#fff;padding:12px;font-size:12px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;transform:translateY(100%);transition:.4s var(--ease)}.h-2:hover .pc-bar{transform:none}.pc-bar:hover{background:var(--accent)}
+/* hover style 3: tinted overlay, centred actions */
+.h-3 .pc-media::after{content:'';position:absolute;inset:0;background:rgba(242,108,61,.12);opacity:0;transition:.4s}.h-3:hover .pc-media::after{opacity:1}
+.h-3 .pc-actions{bottom:50%;transform:translateY(60%);z-index:2}.h-3:hover .pc-actions{transform:translateY(50%)}
+/* hover style 4: lifted card with shadow */
+.h-4{transition:.4s var(--ease);padding:10px}.h-4:hover{transform:translateY(-8px);box-shadow:0 22px 44px rgba(0,0,0,.1)}
+.is-list{display:grid;grid-template-columns:240px 1fr;gap:26px;text-align:left;align-items:center}.is-list .pc-info .btn{margin-top:10px}.pc-desc{color:var(--muted);font-size:13px;margin:8px 0}
+@media(max-width:600px){.is-list{grid-template-columns:1fr}}

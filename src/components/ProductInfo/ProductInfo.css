@@ -1,0 +1,10 @@
+.pinfo{display:grid;gap:16px;align-content:start}.pinfo h1{font-size:26px;font-weight:600;color:#222}
+.pi-row{display:flex;gap:16px;align-items:center}.pi-stock{color:var(--green);font-size:12px;font-weight:500}
+.pi-price{font-size:22px}.pi-price em{font-style:normal;background:var(--red);color:#fff;font-size:11px;padding:2px 10px;border-radius:12px;margin-left:12px;vertical-align:middle}
+.pi-desc{color:var(--muted);font-size:13.5px}
+.pi-boost{background:var(--bg-soft);padding:16px;border-radius:6px;display:grid;gap:8px}.pi-boost small{color:var(--muted)}.pi-boost .countdown{justify-content:flex-start}
+.pi-opt{display:flex;align-items:center;gap:10px}.pi-opt label{width:60px;font-weight:500}
+.sw{width:26px;height:26px;border-radius:50%;border:3px solid #fff;box-shadow:0 0 0 1px var(--line);transition:.25s}.sw.on{box-shadow:0 0 0 2px var(--accent)}.sw:hover{transform:scale(1.15)}
+.sz{min-width:40px;height:36px;border:1px solid var(--line);border-radius:4px;transition:.25s}.sz.on,.sz:hover{border-color:var(--dark);background:var(--dark);color:#fff}
+.pi-buy{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.pi-wish{width:44px;height:44px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;transition:.3s}.pi-wish:hover,.pi-wish.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.pi-meta{font-size:13px;color:#777}.pi-meta span{color:var(--dark);font-weight:500}

@@ -1,0 +1,4 @@
+.co-body{padding:50px 0 90px;display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:start}.co-form{display:grid;gap:14px}.co-form h3,.co-sum h3{margin-bottom:6px}
+.co-sum{background:var(--bg-soft);padding:28px;display:grid;gap:12px}.co-sum>div{display:flex;justify-content:space-between;gap:10px}.co-sum .tot{border-top:1px solid #ddd;padding-top:12px;font-size:17px}
+.co-done{text-align:center;padding:90px 0;display:grid;gap:14px;justify-items:center;animation:fadeUp .6s}.co-done h2{font-size:32px}
+@media(max-width:800px){.co-body{grid-template-columns:1fr}}

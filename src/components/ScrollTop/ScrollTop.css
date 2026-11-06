@@ -1,0 +1,2 @@
+.scrolltop{position:fixed;right:22px;bottom:26px;width:42px;height:42px;border-radius:50%;background:#fff;box-shadow:0 4px 18px rgba(0,0,0,.2);display:grid;place-items:center;opacity:0;transform:translateY(20px);pointer-events:none;transition:.35s var(--ease);z-index:90}
+.scrolltop.show{opacity:1;transform:none;pointer-events:auto}.scrolltop:hover{background:var(--accent);color:#fff}

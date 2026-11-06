@@ -1,0 +1,5 @@
+.promo{display:grid;grid-template-columns:1.1fr 1fr;padding:0!important;margin:60px auto;overflow:hidden}
+.promo-img{overflow:hidden}.promo-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}.promo:hover .promo-img img{transform:scale(1.06)}
+.promo-text{background:#e6f0f3;padding:60px 8%;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:14px}
+.eyebrow-s{color:var(--accent);font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase}.promo h2{font-size:clamp(26px,3.4vw,38px);font-weight:600;color:#222}.promo p{color:#888;font-size:12px;max-width:340px}
+@media(max-width:700px){.promo{grid-template-columns:1fr}}

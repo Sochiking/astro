@@ -1,0 +1,2 @@
+.acc-body{padding:60px 0 90px;display:grid;place-items:center}.acc-card{width:min(440px,100%);display:grid;gap:14px;border:1px solid var(--line);padding:36px;animation:fadeUp .6s var(--ease)}.acc-card p{color:var(--muted)}
+.acc-tabs{display:flex;border-bottom:1px solid var(--line);margin-bottom:6px}.acc-tabs button{flex:1;padding:10px;font-weight:500;color:#888;position:relative}.acc-tabs .on{color:var(--dark)}.acc-tabs .on::after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--accent)}

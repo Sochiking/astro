@@ -1,0 +1,1 @@
+.share{display:flex;gap:8px;align-items:center;font-size:13px}.share a,.share button{width:32px;height:32px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;transition:.3s}.share a:hover,.share button:hover{background:var(--accent);border-color:var(--accent);color:#fff;transform:translateY(-3px)}

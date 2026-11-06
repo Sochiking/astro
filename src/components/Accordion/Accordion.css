@@ -1,0 +1,2 @@
+.acc-item{border-bottom:1px solid var(--line)}.acc-item>button{width:100%;display:flex;justify-content:space-between;align-items:center;padding:20px 0;font-size:15px;font-weight:500;text-align:left;transition:.2s}.acc-item>button:hover,.acc-item.open>button{color:var(--accent)}
+.acc-a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s var(--ease)}.acc-item.open .acc-a{grid-template-rows:1fr}.acc-a p{overflow:hidden;color:var(--muted)}.acc-item.open .acc-a p{padding-bottom:20px}

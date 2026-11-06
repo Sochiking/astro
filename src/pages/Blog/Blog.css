@@ -1,0 +1,4 @@
+.blog-body{padding:50px 0 90px;display:grid;gap:44px;grid-template-columns:1fr}.blog-body.sb-left{grid-template-columns:260px 1fr}.blog-body.sb-right{grid-template-columns:1fr 260px}
+.blog-list.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:30px}.blog-list.list{display:grid;gap:34px}
+.blog-list.masonry{columns:3 280px;column-gap:30px}.bl-item{break-inside:avoid}
+@media(max-width:900px){.blog-body.sb-left,.blog-body.sb-right{grid-template-columns:1fr}}

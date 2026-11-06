@@ -1,0 +1,2 @@
+.spinner{display:inline-block;border:2px solid #cfe9e4;border-top-color:#2aa198;border-radius:50%;animation:spin .8s linear infinite}
+.spinner-block{display:flex;justify-content:center;padding:70px 0}
